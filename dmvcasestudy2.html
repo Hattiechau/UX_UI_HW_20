@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Hotjar Tracking Code for https://hattiechau.github.io/UX_UI_HW_19/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1883296,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171485533-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-171485533-1');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/946b1c557b.js" crossorigin="anonymous"></script>
+    <title>California DMV Responsive Web Redesign Case Study</title>
+</head>
+<body data-spy="scroll" data-offset="1" data-target="#verticalScrollspy">
+    <header>
+        <div class="navigation">
+            <nav>
+                <img src="images/logoBW.png" alt="hc logo" width="56" height="48" class="logo" />
+                <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+                <ul class="nav-ul menu">
+                    <li class="navItem"><a href= "index.html">work</a></li>
+                    <li class="navItem"><a href="about.html">about</a></li>
+                    <li class="navItem"><a href=resume.pdf.>resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-3 col-sm-2" id="verticalScrollspy">
+				<ul class="nav flex-column nav-pills">
+					<li class="nav-item"><a class="nav-link active" href="#section1">The Process</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section2">Research</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section3">Definition and Synthesis</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section4">Ideation Design</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section5">Usability Testing</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section6">Interactive Prototype</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section7">Reflection and Next Steps</a></li>
+				</ul>
+            </nav>
+            <div class="col-9 col-sm-10">
+                <div id="section1" class="container-fluid" >
+                    <section>
+                        <div class="csHeaderContainer">
+                            <h2 class="csTitle csTitleHeader">California Department of Motor Vehicles</h2>
+                            <h4 class="csTitle">Responsive Website Redesign</h4>
+                            <h4 class="csTitle">Visual Design</h4>
+                            <div class="dmvImage">
+                                <img src="images/DMV-cover-image.png" alt="DMV Redesign Mockup">
+                            </div>
+                            <p>Complete responsive redesign of the California Department of Motor Vehicles Website from the information architecture to the style guide</p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="row">
+                            <div class="col">
+                                <ul class="csList">
+                                    <li class="csListHeader">ROLE:</li>
+                                    <li>User Research</li>
+                                    <li>Insight Synthesis</li>
+                                    <li>Visual Design</li>
+                                    <li>Branding</li>
+                                    <li>Prototyping</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="csList">
+                                    <li class="csListHeader">TEAM:</li>
+                                    <li>Group project with 1 UX/UI partner</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="csList">
+                                    <li class="csListHeader">TIMELINE:</li>
+                                    <li>4 weeks</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="csList">
+                                    <li class="csListHeader">TOOLS:</li>
+                                    <li>Miro, Invision, Figma, Adobe CC</li>
+                                </ul>
+                            </div>
+                          </div>
+                    </section>
+                    <hr>
+                    <section>
+                        <div>
+                            <h2 class="csBodyHeader">Background</h2>
+                            <p class="csBodyText">
+                                Government agencies are not known for their beautifully designed websites with great user flows. Part of the reason is the mountain of information and bureaucratic jargon involved in most government transactions. I believe that a better designed information architecture and labeling systems with users in mind would vastly improve the way this information is presented. Together with my UX/UX partner, we aim to redesign the DMV website to be delightful and functional.
+                            </p>
+                            <h2 class="csBodyHeader">Problem</h2>
+                            <p class="csBodyText">
+                                <span class="semiBoldWord">Poorly organized site structure </span>makes it difficult to find what you are looking for on the DMV website. The <span class="semiBoldWord">lack of visual hierarchy </span>and the <span class="semiBoldWord">massive amount of links </span>creates an unpleasant user experience.
+                            </p>
+                            <h2 class="csBodyHeader">Solution</h2>
+                            <p class="csBodyText">
+                                Redesign the California DMV website to be more <span class="semiBoldWord">modern and welcoming</span>, while <span class="semiBoldWord">reorganising the information architecture</span> to improve usability to both desktop and mobile versions of the website.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <div id="section2" class="container-fluid">
+                    <hr>
+                    <section>
+                        <div>
+                            <h2 class="csBodyHeader">Current State</h2>
+                            <p class="csBodyText">
+                                The current CA DMV website leaves a lot to be desired. Going through the typical user path, it is easy to see why people came away with a bad impression. It took too many steps to do a task and eadh pages has too many links. There is no visual hierarchy or imagery at all.
+                            </p>
+                            <img src="images/oldDMV-composite.png" alt="old DMV screenshots" class="dmvImages">
+                            <h2 class="csBodyHeader">User Persona</h2>
+                            <img src="images/Persona.png" alt="DMV user persona" class="dmvImages-sm">
+                            <h2 class="csBodyHeader">Usability Test</h2>
+                            <div class="DMV-flexcontainer">
+                                <p class="csBodyText">
+                                    We conducted 5 usability tests and we found a number of similar complaints with multiple users expressing confusion over the convoluted website and frustration with the unclear terminology.
+                                </p>
+                                <img src="images/Usability Test1.jpg" alt="affinity diagram" class="dmvAffinityDiagramImage">
+                            </div>
+                            <h2 class="csBodyHeader">Usability Test—Navigation Focus</h2>
+                            <div class="DMV-flexcontainer">
+                                <img src="images/Usability Testing-Navigation.jpg" alt="affinity diagram" class="dmvAffinityDiagramImage">
+                                <p id="dmvUsabilityText"  class="csBodyText">
+                                    We wanted to make the redesigned navigation as uncomplicated to use as possible so we focused on the current navigation during our usability tests to get a sense of the existing issues.
+                                </p>
+                            </div>
+                            <p class="csBodyText">
+                                The main issues we found with the DMV website was that it was generally unclear and difficult to use. This included not being able to log in, being redirected to unexpected pages, and having primary flows buried inside a mountain of links.
+                            </p>
+                            <img src="images/2x2 Matrix.jpg" alt="2x2 matrix" class="dmvImages-sm">
+                            <p class="csBodyText">
+                                The common pain points with the navigation were not knowing how to navigate to where they wanted to go, website redirects that made the user feel like they were repeatedly doing the same tasks and text links that took too much time to read and understand.
+                            </p>
+                            <img src="images/2x2Matrix2.jpg" alt="2x2 matrix" class="dmvImages-sm">
+                            <h2 class="csBodyHeader">Heuristic Evaluation</h2>
+                            <p class="csBodyText">
+                                With all of our usability data, we annotated the DMV website to mark where users encountered problems and the potential solutions and improvements.
+                            </p>
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-sm">
+                                    <img src="images/Redlining.png" alt="redlining image 1" class="twoColImage">
+                                  </div>
+                                  <div class="col-sm">
+                                    <img src="images/Redlining2.png" alt="redlining image 2" class="twoColImage">
+                                  </div>
+                                </div>
+                            </div>
+                            <h2 class="csBodyHeader">Competitive Analysis</h2>
+                            <p class="csBodyText">
+                                We researched several other DMV websites from other states for an idea of how they organized their information. 
+                            </p>
+                            <img src="images/DMV-competitoranalysis-composite.png" alt="competitor analysis" class="dmvImages-nopad">
+                            <p class="small">From left to right: Georgia DDS, Indiana BMV, Wisconsin DOT</p>
+                            <h2 class="csBodyHeader">Research Findings</h2>
+                            <p class="csBodyText">
+                                The DMV website had no voice or personality. In trying to be “professional” and “official”, it instead became nondescript and boring. Trying to navigate to where you wanted to go was a nightmare because the site structure was byzantine and confusing to the average user. The pages were filled with vague and incomprehensible industry verbiage. These were all issues we needed to resolve.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <div id="section3" class="container-fluid">
+                    <hr>
+                    <section>
+                        <h2 class="csBodyHeader">Card Sorting</h2>
+                        <p class="csBodyText">
+                            In order to define the new site structure, we had to reorganize everything from the bottom up. We began by breaking down the pieces of the website and reorganizing it in a more user-friendly way.
+                        </p>
+                        <img src="images/CardSorting.png" alt="card sorting" class="dmvImages">
+                        <h2 class="csBodyHeader">Site Mapping</h2>
+                        <p class="csBodyText">
+                            In our redesign, we decided to simplify the top navigation and the footer to make accessing the site easier. We also relabeled categories with clearer titles and grouped like topics together so that the layout was better organized and centered around user needs.
+                        </p>
+                        <img src="images/Sitemap.png" alt="sitemapping" class="dmvImages">
+                        <h2 class="csBodyHeader">Rebranding</h2>
+                        <p class="csBodyText">
+                            The DMV was in serious need of a new brand voice. The previous site was unvarying and monotonous. The colors were institutional and the whole flow felt stale. We began our rebranding with a brand prism to start us off on how we wanted to project the new and improved California DMV.
+                        </p>
+                        <img src="images/brandprism.png" alt="brand prism" class="dmvImages">
+                    </section>
+                </div>
+                <div id="section4" class="container-fluid">
+                    <hr>
+                    <section>
+                        <h2 class="csBodyHeader">Wireframes</h2>
+                        <p class="csBodyText">
+                         In order to create visual interest and hierarchy, we repositioned the information by chunking the content into groups and creating a Z-pattern to aid the eye in traveling through the page. We inserted images to add color and interest. Links were repackaged into easily scannable cards.
+                        </p>
+                        <img src="images/wireframe.png" alt="desktop wireframe" class="dmvImages-smpad">
+                        <p class="small">Desktop Wireframes</p>
+                        <img src="images/tablet-wireframe@2x.png" alt="tablet wireframe" class="dmvImages-smpad">
+                        <p class="small">Tablet Wireframes</p>
+                        <img src="images/mobile-wireframe@2x.png" alt="tablet wireframe" class="dmvImages-smpad">
+                        <p class="small">Mobile Wireframes</p>
+
+                        </br>
+
+                        <h2 class="csBodyHeader">Wireframe Desktop Prototype</h2>
+                        <img src="images/DMV-Prototype.gif" alt="DMV wireframe prototype" class="dmvImages">
+                     </section>
+
+                </div>
+                <div id="section5" class="container-fluid">
+                    <hr>
+                    <section>
+                        <h2 class="csBodyHeader">Usability Testing</h2>
+                        <p class="csBodyText">
+                            Our primary focus on testing was with our navigation options. We tested mid-fidelity menus and used the results to iterate on our high-fidelity prototypes.
+                        </p>
+                        <h4  class="csBodySubhead">Header Navigation Iterations</h4>
+                        <img src="images/header-iteration@2x.png" alt="header iterations" class="dmvImages-sm">
+                        <h4  class="csBodySubhead">Footer Navigation Iterations</h4>
+                        <img src="images/footer-iteration@2x.png" alt="footer iterations" class="dmvImages-sm">
+                        <h2 class="csBodyHeader">Insights</h2>
+                        <p class="csBodyText">
+                        Separating the main service menu options of the DMV from the login and search links helped direct users to the features that we wanted to emphasize on the website. However, we found that users were confused as to why the menu and submenu were shown as two visually distinct components. 
+                        </p>
+                        <h4 class="csBodySubhead centerSubhead">Improvement</h4>
+                        <p class="csImprovementText">
+                        Connecting the menu and submenus visually to provide a better understanding of the navigation flow.
+                        </p>
+                        <p class="csBodyText">
+                        We found that our testers did not utilize the website’s accessibility links we put in the footer at all and instead prefer to rely on their own individual brower’s accessibility options.
+                        </p>
+                        <h4  class="csBodySubhead centerSubhead">Improvement</h4>
+                        <p class="csImprovementText">
+                        Simplify the footer and remove site-provided accessibility in favor of browser provided ones.
+                        </p>
+                    </section>
+                </div>
+                <div id="section6" class="container-fluid">
+                    <hr>
+                    <section>
+                        <h2 class="csBodyHeader">UI Style Guide</h2>
+                        <p class="csBodyText">
+                            In order to rebrand the look and voice of the DMV to be more modern and personable, we created a style guide to use across a pages of our redesign.
+                        </p>
+                        <h4  class="csBodySubhead">Color Palette</h4>
+                        <img src="images/ColorPalette.png" alt="color palette" class="dmvImages-sm">
+                        <h4  class="csBodySubhead">Typography</h4>
+                        <img src="images/Typography.png" alt="typography" class="dmvImages-sm">
+                        <h4  class="csBodySubhead">Buttons and Components</h4>
+                        <img src="images/Buttons and Components.png" alt="buttons and components" class="dmvImages-sm">
+                        <h4  class="csBodySubhead">Dropdown Menu</h4>
+                        <img src="images/Dropdown Menu.png" alt="dropdown menu" class="dmvImages-sm">
+                        <h4  class="csBodySubhead">Headers and Footers</h4>
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-sm">
+                                <img src="images/Header.png" alt="headers" class="twoColImage">
+                              </div>
+                              <div class="col-sm">
+                                <img src="images/Footer.png" alt="footers" class="twoColImage">
+                              </div>
+                            </div>
+                        </div>
+                        <h4  class="csBodySubhead">Imagery</h4>
+                        <img src="images/Imagery.png" alt="imagery" class="dmvImages">
+                    </br>
+                    <h2 class="csBodyHeader">Final Design</h2>
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-sm">
+                            <img src="images/Final1-Homepage.png" alt="final design homepage" class="twoColImage">
+                          </div>
+                          <div class="col-sm">
+                            <img src="images/Final2-Driver License.png" alt="final design drivers license" class="twoColImage">
+                          </div>
+                          <div class="col-sm">
+                            <img src="images/Final3-Real ID.png" alt="final design real id" class="twoColImage">
+                          </div>
+                          <div class="col-sm">
+                            <img src="images/Final4-Records and Forms.png" alt="final design drivers license" class="twoColImage">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-sm">
+                            <img src="images/Final5-Vehicles and Registration.png" alt="final design vehicles and registration" class="threecolImage">
+                          </div>
+                          <div class="col-sm">
+                            <img src="images/Final6-Acessibility Services.png" alt="final design accessibility services" class="threecolImage">
+                          </div>
+                          <div class="col-sm">
+                            <img src="images/Final7-DUI.png" alt="final design dui" class="threecolImage">
+                          </div>
+                
+                        </div>
+                    </div>
+                </br>
+                    <img src="images/DMV-Desktop-FinalDesignMockup-ezgif.gif" alt="DMV final prototype" class="dmvImages">
+                    </section>
+
+                </div>
+                <div id="section7" class="container-fluid">
+                    <hr>
+                        <section>
+                            <h2 class="csBodyHeader">Reflection and Next Steps</h2>
+                            <p class="csBodyText">
+                                Through a more refined navigation, better categorized links and a new brand voice that is modern yet professional, the new California DMV can appeal to anyone that lands on its pages.
+                             </p>
+                            <h4 class="csBodySubhead">Site Structure Designed for Users</h4>
+                            <p class="csBodyText">
+                                With this project we had to tackled the monster of a website that was the CA DMV. By breaking the components of the pages down, and reorganizing it into a structure that put user needs first, we designed a site that made the DMV relatively straightforward and easy to use.
+                            </p>
+                            <h4  class="csBodySubhead">Always Design with Mobile in Mind</h4>
+                            <p class="csBodyText">
+                                In redesigning any website, we have to always consider how the website would look and work on mobile devices. This is especially important given that many people today rely solely with their phones for all their internet activity.
+                            </p>
+                            <img src="images/DMV Devices Mockups.jpg" alt="dmv devices mockup" class="dmvImages">
+                        </section>
+                </div>
+                
+
+
+
+            </div>
+
+        </div>
+			
+
+
+    </div>
+		
+            
+
+
+
+
+
+
+    <footer>
+        <div class="footerInfo">
+            <div class="footerName">Hattie Chau</div>
+            <div class="footerTitle">UX/UI Design</div>
+        </div>
+        <div class="footerConnect">
+            <div>Let's Connect!</div>
+            <div class="footerEmail"><a href="emailurl" class="emailLink">hi@hattiechau@gmail.com</a></div>
+        </div>
+        <div class="footerSocial">
+            <a href="https://www.linkedin.com/in/hattie-chau/"><img src="images/linkedin_logo.png" alt="linkedin logo" width="47" height="47">
+            </a>
+            <a href="https://dribbble.com/hattie_chau"><img src="images/dribbble_logo.png" alt="dribble logo" width="47" height="47">
+            </a>
+            <a href="https://www.behance.net/hattiechau"><img src="images/behance_logo.png" alt="behance logo" width="47" height="47">
+            </a>
+         </div>
+         <div class="footerCopyright">&copy; 2020 Hattie Chau</div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</html>
